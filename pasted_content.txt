@@ -1,0 +1,398 @@
+AI Product Cannibalization Analysis System
+Comprehensive Prompt Engineering Framework for Retail Sales Directors
+Executive Summary
+This document provides a complete prompt engineering framework for creating an AI-powered product cannibalization analysis system. The system enables sales directors to understand, predict, and simulate cannibalization effects across their product portfolios in retail environments.
+
+Core Prompt Engineering Framework
+1. Master System Prompt
+You are an expert Product Cannibalization Analyst AI specializing in retail product portfolio management. Your role is to help sales directors understand, analyze, and predict cannibalization effects across their product lines sold through major retailers (Walmart, Costco, Target, etc.).
+
+CORE COMPETENCIES:
+- Product cannibalization analysis and prediction
+- Retail market dynamics understanding
+- Sales impact simulation and forecasting
+- Competitive landscape analysis
+- Revenue optimization strategies
+- Data-driven decision support
+
+ANALYSIS FRAMEWORK:
+1. Cannibalization Type Identification
+2. Impact Quantification
+3. Predictive Modeling
+4. Scenario Simulation
+5. Strategic Recommendations
+
+COMMUNICATION STYLE:
+- Direct, data-driven insights
+- Business-focused recommendations
+- Clear visualization suggestions
+- Actionable next steps
+- Risk assessment included
+
+Always structure responses using the IMPACT framework:
+I - Identify the cannibalization scenario
+M - Measure potential impact
+P - Predict outcomes with confidence levels
+A - Analyze alternatives and scenarios
+C - Create actionable recommendations
+T - Timeline and implementation steps
+2. Cannibalization Analysis Prompt Templates
+A. Initial Assessment Prompt
+Analyze the product cannibalization scenario using this framework:
+
+PRODUCT CONTEXT:
+- Category: [Product Category]
+- Current Portfolio: [List existing products]
+- New Product: [Description of new/proposed product]
+- Retail Channels: [Walmart, Costco, etc.]
+- Timeline: [Launch/analysis period]
+
+CANNIBALIZATION ASSESSMENT:
+1. Direct Cannibalization Risk:
+   - Which existing products are most at risk?
+   - What percentage of sales might be cannibalized?
+   - Confidence level in assessment (1-10)
+
+2. Market Expansion Potential:
+   - New customer segments targeted
+   - Market size expansion opportunity
+   - Net revenue impact prediction
+
+3. Competitive Response:
+   - How might competitors react?
+   - Market share implications
+   - Defensive positioning needs
+
+Provide specific metrics, percentages, and timelines. Include both optimistic and conservative scenarios.
+B. Simulation Scenario Prompt
+Execute a cannibalization simulation with these parameters:
+
+SIMULATION SETUP:
+- Scenario Type: [New Launch/Competitor Entry/Price Change]
+- Product Details: [Specifications]
+- Market Conditions: [Current state]
+- Time Horizon: [Analysis period]
+
+RUN SIMULATION FOR:
+1. Base Case (Most Likely):
+   - Sales impact on each existing product
+   - Overall portfolio revenue change
+   - Market share shift
+
+2. Best Case:
+   - Maximum market expansion
+   - Minimal cannibalization
+   - Competitive advantages
+
+3. Worst Case:
+   - Maximum cannibalization
+   - Competitive threats
+   - Revenue loss scenarios
+
+4. Sensitivity Analysis:
+   - Price elasticity effects
+   - Promotion impact
+   - Seasonal variations
+
+Output: Detailed numerical projections with confidence intervals and key assumptions.
+C. Competitive Analysis Prompt
+Analyze competitive cannibalization threats:
+
+COMPETITIVE LANDSCAPE:
+- Main Competitors: [List]
+- Their Product Portfolio: [Current offerings]
+- Market Positioning: [Price/quality segments]
+
+THREAT ASSESSMENT:
+1. Immediate Threats (0-6 months):
+   - Announced product launches
+   - Pricing changes
+   - Distribution expansion
+
+2. Medium-term Risks (6-18 months):
+   - Pipeline products
+   - Market entry plans
+   - Partnership changes
+
+3. Strategic Implications:
+   - Our defensive options
+   - Offensive opportunities
+   - Portfolio optimization needs
+
+Include specific competitor products, launch timelines, and recommended countermeasures.
+3. Data Integration Prompts
+A. Sales Data Analysis
+Process this sales data for cannibalization insights:
+
+DATA STRUCTURE:
+- Time Series: [Daily/Weekly/Monthly sales]
+- Product Hierarchy: [Brand/Category/SKU]
+- Channel Data: [Retailer-specific performance]
+- Geographic Splits: [Regional variations]
+
+ANALYSIS REQUIREMENTS:
+1. Historical Cannibalization Patterns:
+   - Previous launch impacts
+   - Seasonal cannibalization effects
+   - Channel-specific behaviors
+
+2. Current Portfolio Performance:
+   - Cross-elasticity coefficients
+   - Substitution patterns
+   - Customer overlap analysis
+
+3. Predictive Indicators:
+   - Leading indicators of cannibalization
+   - Early warning signals
+   - Performance benchmarks
+
+Generate actionable insights with statistical confidence levels.
+B. Market Research Integration
+Synthesize market research for cannibalization planning:
+
+RESEARCH INPUTS:
+- Consumer Purchase Intent: [Survey data]
+- Brand Preference: [Loyalty metrics]
+- Price Sensitivity: [Elasticity studies]
+- Channel Preferences: [Shopping behavior]
+
+SYNTHESIS OBJECTIVES:
+1. Customer Segment Analysis:
+   - Who will switch between products?
+   - What drives product choice?
+   - Loyalty vs. price sensitivity
+
+2. Market Opportunity Sizing:
+   - Addressable market expansion
+   - Cannibalization vs. growth potential
+   - Optimal positioning strategy
+
+3. Go-to-Market Implications:
+   - Messaging differentiation needs
+   - Pricing strategy recommendations
+   - Channel optimization priorities
+
+Provide clear segmentation insights and strategic recommendations.
+4. Scenario Planning Prompts
+A. "What-If" Analysis Framework
+Execute comprehensive what-if scenario analysis:
+
+SCENARIO PARAMETERS:
+Base Inputs: [Current state]
+Variables to Test: [Price/features/positioning/timing]
+Constraints: [Budget/capacity/channel limitations]
+
+SCENARIOS TO MODEL:
+1. Product Launch Scenarios:
+   - Different launch timings
+   - Various price points
+   - Alternative feature sets
+   - Channel strategy options
+
+2. Competitive Response Scenarios:
+   - Competitor launches similar product
+   - Price wars initiated
+   - New market entrants
+   - Supply chain disruptions
+
+3. Market Condition Changes:
+   - Economic downturns/upturns
+   - Consumer preference shifts
+   - Regulatory changes
+   - Technology disruptions
+
+For each scenario, provide:
+- Revenue impact ($ and %)
+- Cannibalization rate
+- Market share effects
+- Timeline to impact
+- Mitigation strategies
+5. Recommendation Engine Prompts
+A. Strategic Decision Support
+Generate strategic recommendations based on cannibalization analysis:
+
+DECISION CONTEXT:
+- Business Objectives: [Growth/profitability/market share]
+- Risk Tolerance: [Conservative/moderate/aggressive]
+- Resource Constraints: [Budget/time/capabilities]
+- Competitive Pressure: [High/medium/low urgency]
+
+RECOMMENDATION FRAMEWORK:
+1. GO/NO-GO Decision:
+   - Quantified business case
+   - Risk-adjusted returns
+   - Strategic alignment
+   - Resource requirements
+
+2. Optimization Strategies:
+   - Product positioning refinements
+   - Pricing optimization
+   - Portfolio management
+   - Market timing
+
+3. Risk Mitigation:
+   - Cannibalization minimization tactics
+   - Competitive response preparations
+   - Performance monitoring systems
+   - Course correction triggers
+
+4. Implementation Roadmap:
+   - Phase-gate approach
+   - Success metrics
+   - Review checkpoints
+   - Resource allocation
+
+Prioritize recommendations by impact and feasibility.
+6. Monitoring and Alert Prompts
+A. Performance Tracking System
+Establish cannibalization monitoring system:
+
+MONITORING OBJECTIVES:
+- Early detection of cannibalization
+- Performance vs. predictions
+- Competitive activity tracking
+- Market condition changes
+
+KEY METRICS TO TRACK:
+1. Direct Cannibalization Indicators:
+   - Sales velocity changes
+   - Market share shifts
+   - Customer switching patterns
+   - Inventory turns
+
+2. Market Health Indicators:
+   - Category growth rates
+   - Competitive activity
+   - Consumer sentiment
+   - Price movements
+
+3. Leading Indicators:
+   - Search trends
+   - Social media mentions
+   - Retailer feedback
+   - Supply chain signals
+
+ALERT SYSTEM:
+- Red flags requiring immediate attention
+- Yellow warnings for proactive management
+- Green signals confirming strategy success
+- Automated reporting cadence
+
+Define thresholds and escalation procedures for each metric level.
+
+Implementation Guidelines
+Conversational AI Integration
+The prompts should be integrated into a conversational AI system that:
+
+Maintains context across multiple interactions
+Learns from user feedback and corrections
+Adapts to company-specific terminology and metrics
+Provides both quick insights and deep analysis
+
+Data Requirements
+The system requires access to:
+
+Historical sales data (SKU level, time series)
+Market research and consumer insights
+Competitive intelligence
+Retailer-specific performance data
+Economic and market condition indicators
+
+Output Standardization
+All analyses should include:
+
+Executive summary (2-3 key points)
+Detailed findings with confidence levels
+Visual recommendations (charts/graphs)
+Actionable next steps with timelines
+Risk assessment and mitigation strategies
+
+
+Advanced Prompt Techniques
+1. Chain-of-Thought Reasoning
+Structure complex analyses using explicit reasoning steps:
+Let me analyze this cannibalization scenario step by step:
+
+Step 1: Market Size Assessment
+[Analysis of total addressable market]
+
+Step 2: Product Similarity Mapping
+[Detailed comparison of features/benefits/positioning]
+
+Step 3: Customer Overlap Analysis
+[Assessment of shared target segments]
+
+Step 4: Historical Pattern Recognition
+[Similar scenarios from company history]
+
+Step 5: Quantitative Impact Modeling
+[Mathematical projection with assumptions]
+
+Step 6: Risk-Adjusted Recommendations
+[Final guidance with uncertainty bounds]
+2. Multi-Perspective Analysis
+Ensure comprehensive coverage by analyzing from multiple viewpoints:
+Analyze this cannibalization scenario from these perspectives:
+
+FINANCIAL PERSPECTIVE:
+- Revenue impact calculations
+- Profitability analysis
+- ROI projections
+
+MARKETING PERSPECTIVE:
+- Brand equity implications
+- Customer journey impacts
+- Positioning challenges
+
+SALES PERSPECTIVE:
+- Channel partner reactions
+- Sales force implications
+- Trade promotion needs
+
+OPERATIONAL PERSPECTIVE:
+- Supply chain impacts
+- Inventory management
+- Cost structure changes
+
+COMPETITIVE PERSPECTIVE:
+- Market response predictions
+- Strategic positioning
+- Defensive capabilities
+3. Uncertainty Quantification
+Always include confidence levels and sensitivity analysis:
+Provide cannibalization impact estimates with uncertainty bounds:
+
+BASE CASE ESTIMATE: [Primary prediction]
+- Confidence Level: [High/Medium/Low]
+- Supporting Evidence: [Data sources and quality]
+- Key Assumptions: [Critical dependencies]
+
+SENSITIVITY ANALYSIS:
+- If assumption A changes by X%: Impact changes by Y%
+- Most sensitive variables: [Ranked list]
+- Scenario switching points: [Condition thresholds]
+
+UNCERTAINTY FACTORS:
+- Data quality limitations
+- Market volatility risks
+- Competitive response unpredictability
+- External factor influences
+
+Quality Assurance Framework
+Validation Checkpoints
+
+Logic Consistency: Ensure recommendations align with analysis
+Data Integrity: Verify input data quality and completeness
+Assumption Transparency: Clearly state all key assumptions
+Sensitivity Testing: Validate robustness of conclusions
+Historical Validation: Compare predictions with actual outcomes
+
+Success Metrics
+
+Prediction accuracy (within ±X% of actual results)
+Decision support effectiveness (improved business outcomes)
+User satisfaction (usability and insight quality)
+Response time (insights delivered within acceptable timeframes)
+Adaptability (system learns and improves over time)
+
+This comprehensive prompt engineering framework provides the foundation for building a sophisticated AI-powered product cannibalization analysis system that delivers actionable insights for retail sales directors.
