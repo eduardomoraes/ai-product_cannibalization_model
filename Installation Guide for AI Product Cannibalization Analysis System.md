@@ -14,8 +14,8 @@ This document provides instructions for installing and running the AI Product Ca
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-organization/cannibalization-system.git
-cd cannibalization-system
+git clone https://github.com/eduardomoraes/ai-product_cannibalization_model.git
+cd ai-product_cannibalization_model
 ```
 
 ### 2. Set Up Python Environment
