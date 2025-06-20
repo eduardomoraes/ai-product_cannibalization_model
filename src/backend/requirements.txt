@@ -1,3 +1,5 @@
 fastapi>=0.100.0
 uvicorn[standard]>=0.23.0
 # Add other core dependencies like pandas, scikit-learn, statsmodels later as needed.
+alembic>=1.12.0
+psycopg2-binary>=2.9.0 # For PostgreSQL
