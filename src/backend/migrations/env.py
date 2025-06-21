@@ -17,13 +17,13 @@ if config.config_file_name is not None:
 import os
 import sys
 
-# Add the project's 'src' directory to the Python path
+# Add the project's root directory (parent of 'src') to the Python path
 # to allow Alembic to find your modules (e.g., src.backend.database)
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..')))
 
 from src.backend.database import Base  # Import your Base from your project
-# from src.backend import models # Ensure your models are imported somewhere so Base knows about them
-                               # models/__init__.py should handle this if models are imported there.
+import src.backend.models # Ensure your models are imported so Base knows about them
+                               # models/__init__.py should handle this.
 
 # add your model's MetaData object here
 # for 'autogenerate' support
