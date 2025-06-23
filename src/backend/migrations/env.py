@@ -69,6 +69,13 @@ def run_migrations_online() -> None:
     and associate a connection with the context.
 
     """
+    # Import SQLALCHEMY_DATABASE_URL from your project's database configuration
+    from src.backend.database import SQLALCHEMY_DATABASE_URL
+
+    # Set the sqlalchemy.url in the Alembic config object to be used by engine_from_config
+    # This ensures that the environment variable (via database.py) is the source of truth
+    config.set_main_option('sqlalchemy.url', SQLALCHEMY_DATABASE_URL)
+
     connectable = engine_from_config(
         config.get_section(config.config_ini_section, {}),
         prefix="sqlalchemy.",
