@@ -1,33 +1,31 @@
+import os
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
-# SQLALCHEMY_DATABASE_URL = "sqlite:///./sql_app.db" # Example for SQLite
-SQLALCHEMY_DATABASE_URL = "postgresql://user:password@host:5432/database" # Example for PostgreSQL
+# Default to a local development PostgreSQL instance if DATABASE_URL is not set.
+# Replace 'user', 'password', and 'retail_analytics_dev' as needed for your default local setup.
+DEFAULT_DATABASE_URL = "postgresql://user:password@localhost:5432/retail_analytics_dev"
+SQLALCHEMY_DATABASE_URL = os.getenv("DATABASE_URL", DEFAULT_DATABASE_URL)
 
-# In a real application, get this URL from environment variables or a config file
-# For example:
-# import os
-# SQLALCHEMY_DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://user:password@localhost/mydatabase")
+engine = create_engine(
+    SQLALCHEMY_DATABASE_URL
+    # For PostgreSQL, 'connect_args' is usually not needed unless for specific SSL modes etc.
+    # For SQLite, it was: connect_args={"check_same_thread": False}
+)
 
+SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
-# engine = create_engine(
-#     SQLALCHEMY_DATABASE_URL
-#     # connect_args={"check_same_thread": False} # Needed only for SQLite
-# )
-
-# SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
-
-Base = declarative_base() # Base can be defined without an engine
+Base = declarative_base()
 
 # Dependency to get DB session in FastAPI routes
-# def get_db():
-#     db = SessionLocal()
-#     try:
-#         yield db
-#     finally:
-#         db.close()
+def get_db():
+    db = SessionLocal()
+    try:
+        yield db
+    finally:
+        db.close()
 
-# print(f"Database URL for engine: {SQLALCHEMY_DATABASE_URL}") # For debugging, remove in production
-# print("SQLAlchemy engine and SessionLocal configured.")
-# print("Ensure your database server is running and the DATABASE_URL is correctly set.")
+# Optional: Add a function to create all tables (for use in main.py during startup if not using Alembic for everything)
+# def create_db_and_tables():
+#     Base.metadata.create_all(bind=engine)
